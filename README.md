@@ -4,6 +4,11 @@
 - An ```if``` expression has a value
 - The ```void``` type is ```Unit```
 - Don't use ```return``` in a function/method
+- Most expressions in Scala have a value but an assignment has no value. ``` val y = 1 ``` has a value of ()
+```
+x = y = 1 // wont work because y = 1 returns ()
+```
+
 
 ##Implementation
 Types are inferred but can be specified
