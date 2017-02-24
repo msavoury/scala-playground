@@ -1,4 +1,11 @@
 # scala-playground
+##General Scala Knowledge
+- Scala has no checked exceptions
+- An ```if``` expression has a value
+- The ```void``` type is ```Unit```
+- Don't use ```return``` in a function/method
+
+##Implementation
 Types are inferred but can be specified
 ```
 val myName = "Joe";
